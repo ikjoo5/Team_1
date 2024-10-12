@@ -7,11 +7,17 @@ Member: Beomseong Kim, Ikjoo Oh
 1. [Overview](#overview)
 2. [Problem Statement](#Problem_Statement)
 3. [Data Description](#Data_Description)
+4. [Data Preprocessing](#Data_Preprocessing)
+5. [Exploratory Data Analysis](#Exploratory_Data_Analysis)
+6. [Model Selection](#Model_Selection)
+7. [Model Training and Evaluation](#Model_Training_and_Evaluation)
+8. [Hyperparameter Tuning](#Hyperparameter_Tuning)
+9. [Conclusion](#Conclusion)
 
 ## Overview
 
 This is a Data Science project by Beomseong Kim and Ikjoo Oh under the guidance of mentors John Oh and Arden Kim. 
-In the competitive landscape of the banking industry, customer retentation is crucial for sustainable growth. This project aims to develop a ML model to predict bank customer churn, which enable the bank to identify at-risk customers and implement targeted retention strategies. 
+In the highly competitive banking industry, customer retention is crucial for sustainable growth. The aim of this project is to develop a machine learning model that predicts bank customer churn. This will enable the bank to identify at-risk customers and implement targeted retention strategies.
 
 ## Problem Statement
 
@@ -34,3 +40,17 @@ The objective of this project is to predict whether a customer will leave the ba
 13. Card Type — Type of card hold by the customer.
 14. Points Earned — Points earned by the customer through credit card usage
 15. **Exited** — **Target feature** that indicate whether the customer left the bank
+
+## Data Preprocessing
+
+## Exploratory Data Analysis
+
+## Model Selection
+
+## Model Training and Evaluation
+
+## Hyperparameter Tuning
+
+## Conclusion
+
+
