@@ -41,12 +41,19 @@ The objective of this project is to predict whether a customer will leave the ba
 14. Points Earned — Points earned by the customer through credit card usage
 15. **Exited** — **Target feature** that indicate whether the customer left the bank
 
+- Target Variable
+  - Exited: `1` = the customer left, `0` = the customer stayed
+
 - Unneeded Variables
 1. RowNumber - indicates the row number and this feature doesn't affect analysis
 2. CustomerId - A random identifier for customers, which also doesn't influence customer churn
 3. Surname - The customer's surname has no impact on their decision to leave the bank
 
 ## Data Preprocessing
+
+- Remove irrelevant features: `RowNumber`, `CustomerId`, `Surname`
+- Handle missing values: all columns are free with missing values
+- Feature Encoding: We need to convert features like `Geography`, `Gender`, `NumberOfProducts`, `HasCrCard`, `Tenure`, `IsActiveMember` using one-hot encoding or label encoding.
 
 ## Exploratory Data Analysis
 
