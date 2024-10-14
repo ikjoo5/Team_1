@@ -41,6 +41,11 @@ The objective of this project is to predict whether a customer will leave the ba
 14. Points Earned — Points earned by the customer through credit card usage
 15. **Exited** — **Target feature** that indicate whether the customer left the bank
 
+- Unneeded Variables
+1. RowNumber - indicates the row number and this feature doesn't affect analysis
+2. CustomerId - A random identifier for customers, which also doesn't influence customer churn
+3. Surname - The customer's surname has no impact on their decision to leave the bank
+
 ## Data Preprocessing
 
 ## Exploratory Data Analysis
