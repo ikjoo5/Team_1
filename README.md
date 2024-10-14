@@ -17,7 +17,6 @@ Member: Beomseong Kim, Ikjoo Oh
 ## Overview
 
 This is a Data Science project by Beomseong Kim and Ikjoo Oh under the guidance of mentors John Oh and Arden Kim. 
-In the highly competitive banking industry, customer retention is crucial for sustainable growth. The aim of this project is to develop a machine learning model that predicts bank customer churn. This will enable the bank to identify at-risk customers and implement targeted retention strategies.
 
 ## Problem Statement
 
