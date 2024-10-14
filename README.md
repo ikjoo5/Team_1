@@ -60,7 +60,7 @@ The objective of this project is to predict whether a customer will leave the ba
 
 ## Model Selection
 1. Baseline Model: Logistic Regression
-  - Logistic Regrssion is fundamemntal binary classification algorithm.
+    - Logistic Regrssion is fundamemntal binary classification algorithm.
 
 ## Model Training and Evaluation
 - With the 10,000 instances of dataset, we will split the dataset into 70% training, 15% validation, and 15% test sets. 
