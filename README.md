@@ -55,10 +55,14 @@ The objective of this project is to predict whether a customer will leave the ba
 - Feature Encoding: We need to convert features like `Geography`, `Gender`, `NumberOfProducts`, `HasCrCard`, `Tenure`, `IsActiveMember` using one-hot encoding or label encoding.
 
 ## Exploratory Data Analysis
+- Data Visualization: Use plots such as histograms, bar plots, and box plots to explore relationships between variables. 
+- Correlation Analysis: We will identify correlations between features and customer churn to select the most relevant predictors. Use `sns.heatmap`
 
 ## Model Selection
+- To be decieded.
 
 ## Model Training and Evaluation
+- With the 10,000 instances of dataset, we will split the dataset into 70% training, 15% validation, and 15% test sets. 
 
 ## Hyperparameter Tuning
 
