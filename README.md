@@ -9,10 +9,11 @@ Member: Beomseong Kim, Ikjoo Oh
 3. [Data Description](#Data_Description)
 4. [Data Preprocessing](#Data_Preprocessing)
 5. [Exploratory Data Analysis](#Exploratory_Data_Analysis)
-6. [Model Selection](#Model_Selection)
-7. [Model Training and Evaluation](#Model_Training_and_Evaluation)
-8. [Hyperparameter Tuning](#Hyperparameter_Tuning)
-9. [Conclusion](#Conclusion)
+6. [Feature Engineering](#FeatureEngineering)
+7. [Model Selection](#Model_Selection)
+8. [Model Training and Evaluation](#Model_Training_and_Evaluation)
+9. [Hyperparameter Tuning](#Hyperparameter_Tuning)
+10. [Conclusion](#Conclusion)
 
 ## Overview
 
