@@ -24,21 +24,21 @@ The objective of this project is to predict whether a customer will leave the ba
 
 ## Data Description
 
-1. CreditScore — Customer credit score
-2. Geography — Customer location
-3. Gender — Gender of the customer
-4. Age — Customer age
-5. Tenure — Duration of the customer relationship with the bank
-6. Balance — Account balance
-7. NumOfProducts — number of products that a customer has purchased through the bank.
-8. HasCrCard — denotes whether or not a customer has a credit card
-9. IsActiveMember — Indicator of active membership status
-10. EstimatedSalary — Customer Salary
-11. Complain — Indicator of customer complaints
-12. Satisfaction Score — Score provided by the customer for their complaint resolution
-13. Card Type — Type of card hold by the customer.
-14. Points Earned — Points earned by the customer through credit card usage
-15. **Exited** — **Target feature** that indicate whether the customer left the bank
+1. CreditScore(`int`) — Customer credit score
+2. Geography(`object`) — Customer location
+3. Gender(`object`) — Gender of the customer
+4. Age(`int`) — Customer age
+5. Tenure(`int`) — Duration of the customer relationship with the bank
+6. Balance(`float`) — Account balance
+7. NumOfProducts(`int`) — number of products that a customer has purchased through the bank.
+8. HasCrCard(`int`) — denotes whether or not a customer has a credit card
+9. IsActiveMember(`int`) — Indicator of active membership status
+10. EstimatedSalary(`float`) — Customer Salary
+11. Complain(`int`) — Indicator of customer complaints
+12. Satisfaction Score(`int`) — Score provided by the customer for their complaint resolution
+13. Card Type(`object`) — Type of card hold by the customer.
+14. Points Earned(`int`) — Points earned by the customer through credit card usage
+15. **Exited**(`int`) — **Target feature** that indicate whether the customer left the bank
 
 - Target Variable
   - Exited: `1` = the customer left, `0` = the customer stayed
@@ -59,7 +59,8 @@ The objective of this project is to predict whether a customer will leave the ba
 - Correlation Analysis: We will identify correlations between features and customer churn to select the most relevant predictors. Use `sns.heatmap`
 
 ## Model Selection
-- To be decieded.
+1. Baseline Model: Logistic Regression
+  - Logistic Regrssion is fundamemntal binary classification algorithm.
 
 ## Model Training and Evaluation
 - With the 10,000 instances of dataset, we will split the dataset into 70% training, 15% validation, and 15% test sets. 
