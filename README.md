@@ -19,6 +19,8 @@ Member: Beomseong Kim, Ikjoo Oh
 
 This is a Data Science project by Beomseong Kim and Ikjoo Oh under the guidance of mentors John Oh and Arden Kim. 
 
+Dataset URL: https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn/data)
+
 ## Problem Statement
 The objective of this project is to predict whether a customer will leave the bank based on historical data. Understanding the predictors of customer churn can help the bank in designing effective retention programs and improving customer satisfaction.
 
