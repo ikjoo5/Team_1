@@ -5,14 +5,14 @@ Member: Beomseong Kim, Ikjoo Oh
 
 ## Table of Contents
 1. [Overview](#overview)
-2. [Problem Statement](#Problem_Statement)
-3. [Data Description](#Data_Description)
-4. [Data Preprocessing](#Data_Preprocessing)
-5. [Exploratory Data Analysis](#Exploratory_Data_Analysis)
-6. [Feature Engineering](#FeatureEngineering)
-7. [Model Selection](#Model_Selection)   
-8. [Model Training and Evaluation](#Model_Training_and_Evaluation)
-9. [Hyperparameter Tuning](#Hyperparameter_Tuning)
+2. [Problem Statement](#Problem-Statement)
+3. [Data Description](#Data-Description)
+4. [Data Preprocessing](#Data-Preprocessing)
+5. [Exploratory Data Analysis](#Exploratory-Data-Analysis)
+6. [Feature Engineering](#Feature-Engineering)
+7. [Model Selection](#Model-Selection)   
+8. [Model Training and Evaluation](#Model-Training-and-Evaluation)
+9. [Hyperparameter Tuning](#Hyperparameter-Tuning)
 10. [Conclusion](#Conclusion)
 
 ## Overview
