@@ -24,6 +24,11 @@ Used Kaggle Dataset: [Bank Chustomer Churn](https://www.kaggle.com/datasets/radh
 ## Problem Statement
 The objective of this project is to predict whether a customer will leave the bank based on historical data. Understanding the predictors of customer churn can help the bank in designing effective retention programs and improving customer satisfaction.
 
+- Expected Outcomes
+  - We expect to identify key factors contributing to customer churn
+  - We will develop a predictive model that accurately classifies customers at risk of churning
+  - We will enhance skills in data analysis, machine learning, and problem-solving within a bank industry context
+
 ## Data Description
 1. CreditScore(`int`) — Customer credit score
 2. Geography(`object`) — Customer location
