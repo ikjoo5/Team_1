@@ -10,7 +10,7 @@ Member: Beomseong Kim, Ikjoo Oh
 4. [Data Preprocessing](#Data_Preprocessing)
 5. [Exploratory Data Analysis](#Exploratory_Data_Analysis)
 6. [Feature Engineering](#FeatureEngineering)
-7. [Model Selection](#Model_Selection)
+7. [Model Selection](#Model_Selection)   
 8. [Model Training and Evaluation](#Model_Training_and_Evaluation)
 9. [Hyperparameter Tuning](#Hyperparameter_Tuning)
 10. [Conclusion](#Conclusion)
@@ -20,11 +20,9 @@ Member: Beomseong Kim, Ikjoo Oh
 This is a Data Science project by Beomseong Kim and Ikjoo Oh under the guidance of mentors John Oh and Arden Kim. 
 
 ## Problem Statement
-
 The objective of this project is to predict whether a customer will leave the bank based on historical data. Understanding the predictors of customer churn can help the bank in designing effective retention programs and improving customer satisfaction.
 
 ## Data Description
-
 1. CreditScore(`int`) — Customer credit score
 2. Geography(`object`) — Customer location
 3. Gender(`object`) — Gender of the customer
@@ -50,7 +48,6 @@ The objective of this project is to predict whether a customer will leave the ba
 3. Surname - The customer's surname has no impact on their decision to leave the bank
 
 ## Data Preprocessing
-
 - Remove irrelevant features: `RowNumber`, `CustomerId`, `Surname`
 - Handle missing values: all columns are free with missing values
 - Feature Encoding: We need to convert features like `Geography`, `Gender`, `NumberOfProducts`, `HasCrCard`, `Tenure`, `IsActiveMember` using one-hot encoding or label encoding.
@@ -58,6 +55,8 @@ The objective of this project is to predict whether a customer will leave the ba
 ## Exploratory Data Analysis
 - Data Visualization: Use plots such as histograms, bar plots, and box plots to explore relationships between variables. 
 - Correlation Analysis: We will identify correlations between features and customer churn to select the most relevant predictors. Use `sns.heatmap`
+
+## Feature Engineering
 
 ## Model Selection
 1. Baseline Model: Logistic Regression
